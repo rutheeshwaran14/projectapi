@@ -5,7 +5,6 @@ from router.users_routers import router as user_router
 from router.admin_routers import router as admin_router
 from router.put import router as add_data
 
-
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="FastAPI JWT MySQL Example")
